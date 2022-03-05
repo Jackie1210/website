@@ -1,4 +1,5 @@
 import { Footer } from '@/components/Footer'
+import logo from '@/assets/logo.jpeg'
 
 import './index.less'
 
@@ -6,7 +7,7 @@ export const Home = () => {
   return (
     <main>
       <h1 className='home__name'>
-        <img src="assets/logo.jpeg" class="home__logo"></img>
+        <img src={logo} class="home__logo"></img>
         @Lynn
       </h1>
       <Footer />
