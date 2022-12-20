@@ -7,7 +7,7 @@ export const Home = () => {
   return (
     <main>
       <h1 class='home__name'>
-        <img src={logo} class="home__logo"></img>
+        <img src={logo} class="home__logo" />
         @Lynn
       </h1>
       <Footer />
