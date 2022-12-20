@@ -1,13 +1,9 @@
-import './App.css'
 import { Home } from '@/pages/Home'
 
-function App() {
-
+export function App() {
   return (
-    <div className="App">
+    <div class="App">
       <Home />
     </div>
   )
 }
-
-export default App
