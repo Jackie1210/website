@@ -9,10 +9,27 @@ main {
       display: flex;
       justify-content: center;
       align-items: center;
+      > a {
+        color: #333;
+      }
     }
     &__logo {
       width: 64px;
       height: 64px;
+      border-radius: 50%;
+      animation: rotate 1s linear .2s;
     }
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
