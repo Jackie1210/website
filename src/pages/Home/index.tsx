@@ -6,7 +6,7 @@ import './index.less'
 export const Home = () => {
   return (
     <main>
-      <h1 className='home__name'>
+      <h1 class='home__name'>
         <img src={logo} class="home__logo"></img>
         @Lynn
       </h1>

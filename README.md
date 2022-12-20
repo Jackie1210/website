@@ -1,1 +1,1 @@
-## my personal website
+[clynn.xyz](https://clynn.xyz)
