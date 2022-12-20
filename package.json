@@ -2,6 +2,7 @@
   "name": "website",
   "version": "0.0.0",
   "scripts": {
+    "prepare": "npx simple-git-hooks",
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint --fix src/**/*.tsx"
