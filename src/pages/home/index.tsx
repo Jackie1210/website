@@ -1,9 +1,10 @@
+import type { ParentComponent } from 'solid-js'
 import { Footer } from '@/components/Footer'
 import logo from '@/assets/logo.jpeg'
 
 import './index.less'
 
-export const Home = () => {
+const Home: ParentComponent = () => {
   return (
     <main>
       <h1 class='home__name'>
@@ -14,3 +15,5 @@ export const Home = () => {
     </main>
   )
 }
+
+export default Home

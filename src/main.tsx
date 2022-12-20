@@ -1,5 +1,10 @@
 import { render } from 'solid-js/web'
+import { Router } from '@solidjs/router'
 import '@/assets/styles/global.less'
 import { App } from './App'
 
-render(() => App, document.getElementById('app')!)
+render(() => (
+  <Router>
+    <App />
+  </Router>
+), document.getElementById('app')!)
