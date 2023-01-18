@@ -1,6 +1,4 @@
-import { ParentComponent } from 'solid-js'
-
-const Resume: ParentComponent = () => {
+const Resume = () => {
   return (
     <div>Not now</div>
   )

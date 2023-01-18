@@ -1,12 +1,11 @@
-import { routes } from '@/router'
-import { useRoutes } from '@solidjs/router'
+import { Outlet } from 'react-router-dom'
 
-export function App() {
-  const Routes = useRoutes(routes)
-
+function App() {
   return (
-    <div class="App">
-      <Routes />
+    <div className='App'>
+      <Outlet />
     </div>
   )
 }
+
+export default App

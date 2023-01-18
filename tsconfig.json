@@ -15,8 +15,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "types": ["vite/client"],
-    "jsx": "preserve",
-    "jsxImportSource": "solid-js",
+    "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]

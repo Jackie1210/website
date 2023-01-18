@@ -5,8 +5,8 @@ export function Footer () {
 
   return (
     <footer>
-      <span class="footer">
-        <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> {year} © Lynn
+      <span className="footer">
+        <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noreferrer">CC BY-NC-SA 4.0</a> {year} © Lynn
       </span>
     </footer>
   )
