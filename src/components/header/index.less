@@ -1,0 +1,36 @@
+.header{
+  height: 64px;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  align-items: center;
+  > img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    animation: rotate 1s linear .2s;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &__right {
+    text-align: right;
+    a {
+      color: inherit;
+      border-bottom: 1px solid #333;
+      text-decoration: none;
+    }
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

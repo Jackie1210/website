@@ -1,17 +1,14 @@
-import { Footer } from '@/components/Footer'
-import logo from '@/assets/logo.jpeg'
+import { Layout } from '@/components/layout'
 
 import './index.less'
 
 const Home = () => {
   return (
-    <main>
-      <h1 className='home__name'>
-        <img src={logo} className="home__logo" alt="logo" />
+    <Layout>
+      <h1 className='home'>
         <a href="//github.com/Jackie1210" target="_blank" rel="noreferrer">@Lynn</a>
       </h1>
-      <Footer />
-    </main>
+    </Layout>
   )
 }
 
