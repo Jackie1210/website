@@ -3,9 +3,11 @@ import { Outlet } from 'react-router-dom'
 
 function App() {
   return (
-    <Suspense>
-      <Outlet />
-    </Suspense>
+    <div className='App'>
+      <Suspense>
+        <Outlet />
+      </Suspense>
+    </div>
   )
 }
 

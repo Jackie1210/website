@@ -1,3 +1,4 @@
+import logo from '@/assets/logo.jpeg'
 import './index.less'
 
 export const Header = () => {
@@ -8,7 +9,7 @@ export const Header = () => {
   return (
     <header className="header">
       <img
-        src={'https://cdn.jsdelivr.net/gh/Jackie1210/static/logo.png'}
+        src={logo}
         className="home__logo"
         alt="logo"
         onClick={handleClick}
