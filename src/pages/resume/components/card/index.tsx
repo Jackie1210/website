@@ -1,15 +1,9 @@
 import type { FC, PropsWithChildren } from 'react'
+import type { ExpHeader } from '@/schema/resume'
 import { A } from '@/pages/resume/components/common/a'
 import './index.less'
 
-interface Props {
-  company: string
-  job: string
-  time: string
-  url: string
-}
-
-export const Card: FC<PropsWithChildren<Props>> = (props) => {
+export const Card: FC<PropsWithChildren<ExpHeader>> = (props) => {
   const { children, company, job, time, url } = props
 
   return (

@@ -1,12 +1,8 @@
 import type { FC } from 'react'
+import type { ExpContent } from '@/schema/resume'
 import './card-content.less'
 
-interface Props {
-  title?: string
-  data: string[]
-}
-
-export const CardContent: FC<Props> = (props) => {
+export const CardContent: FC<ExpContent> = (props) => {
   const { title, data } = props
 
   return (

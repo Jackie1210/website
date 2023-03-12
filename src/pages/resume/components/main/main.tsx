@@ -1,5 +1,6 @@
 import './index.less'
 
+import type { ExpItem } from '@/schema/resume'
 import { Block } from '@/pages/resume/components/block/block'
 import { Card } from '@/pages/resume/components/card/index'
 import { Education } from '@/pages/resume/components/education/index'
@@ -7,9 +8,9 @@ import { Stack } from '@/pages/resume/components/stack/index'
 import { Review } from '@/pages/resume/components/review/index'
 import { CardContent } from '@/pages/resume/components/card/card-content'
 
-const Experiences = [
+const Experiences: Array<ExpItem> = [
   {
-    props: {
+    header: {
       company: 'Bilibili',
       job: '高级前端开发工程师',
       time: '2021.4~现在',
@@ -33,7 +34,7 @@ const Experiences = [
     ]
   },
   {
-    props: {
+    header: {
       company: '携程',
       job: '高级前端开发工程师',
       time: '2019.6~2021.4',
@@ -56,7 +57,7 @@ export const Main = () => {
     <main className="resume-main">
       <Block title={'工作经历'}>
         {Experiences.map((exp, i) => (
-          <Card key={i} {...exp.props}>
+          <Card key={i} {...exp.header}>
             {exp.data.map((d, x) => (
               <CardContent {...d} key={x} />
             ))}
