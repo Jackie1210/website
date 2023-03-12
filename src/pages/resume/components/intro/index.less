@@ -1,0 +1,22 @@
+.resume__intro {
+  @media (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  &-name {
+    margin-bottom: 0;
+    font-size: 2.8rem;
+  }
+  &-job {
+    margin-bottom: .5rem;
+    color: #666
+  }
+  &-email, &-phone {
+    font-size: .5rem;
+    width: fit-content;
+    color: #999;
+    border-bottom: 1px dashed #999;
+  }
+}
