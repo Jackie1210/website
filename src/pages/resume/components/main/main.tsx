@@ -5,6 +5,7 @@ import { Block } from '@/pages/resume/components/block/block'
 import { Card } from '@/pages/resume/components/card/index'
 import { Education } from '@/pages/resume/components/education/index'
 import { Stack } from '@/pages/resume/components/stack/index'
+import { Projs } from '@/pages/resume/components/projs'
 import { Review } from '@/pages/resume/components/review/index'
 import { CardContent } from '@/pages/resume/components/card/card-content'
 
@@ -63,6 +64,9 @@ export const Main = () => {
             ))}
           </Card>
         ))}
+      </Block>
+      <Block title={'项目经验'}>
+        <Projs />
       </Block>
       <Block title={'教育经历'}>
         <Education />

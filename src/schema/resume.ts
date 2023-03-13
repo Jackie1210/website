@@ -7,7 +7,7 @@ export interface ExpHeader {
 
 export interface ExpContent {
   title?: string
-  data: string[]
+  data?: string[]
 }
 
 export interface ExpItem {
