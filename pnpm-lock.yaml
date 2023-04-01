@@ -9,6 +9,7 @@ specifiers:
   '@typescript-eslint/parser': ^5.54.1
   '@vercel/analytics': ^0.1.11
   '@vitejs/plugin-react-swc': ^3.2.0
+  clsx: ^1.2.1
   eslint: ^8.36.0
   eslint-define-config: ^1.16.0
   eslint-plugin-eslint-comments: ^3.2.0
@@ -31,6 +32,7 @@ specifiers:
 dependencies:
   '@mdx-js/react': 2.3.0_react@18.2.0
   '@vercel/analytics': 0.1.11_react@18.2.0
+  clsx: 1.2.1
   lxgw-wenkai-lite-webfont: 1.7.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -1087,6 +1089,11 @@ packages:
       slice-ansi: 5.0.0
       string-width: 5.1.2
     dev: true
+
+  /clsx/1.2.1:
+    resolution: {integrity: sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==}
+    engines: {node: '>=6'}
+    dev: false
 
   /color-convert/2.0.1:
     resolution: {integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==}
