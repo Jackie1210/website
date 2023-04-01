@@ -1,6 +1,11 @@
+import { useEffect } from 'react'
 import './index.less'
 
 const Marry = () => {
+  useEffect(() => {
+    document.title = 'Juice Lu'
+  }, [])
+
   return (
     <div className={'marry'}>
       <h1>IF YOU</h1>
