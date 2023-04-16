@@ -1,0 +1,42 @@
+.wedding {
+  min-height: 100vh;
+  background-color: #d8f0fc;
+  background: linear-gradient(#d8f0fc 80%, rgba(#7B64FF, .6));
+  > img {
+    width: 100vw;
+    height: 60vh;
+    object-fit: cover;
+    vertical-align: bottom;
+  }
+  &__main {
+    box-sizing: border-box;
+    margin: 0 44px 20px;
+    border-radius: 32px;
+    background-color: #fff9eb;
+    border: 1px solid #222;
+    padding: 20px 0;
+  }
+  &__card {
+    width: 100%;
+    background: radial-gradient(10px at left bottom, #fff 100%);
+    &-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 8px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      &:first-child {
+        gap: 4px;
+      }
+      &.time {
+        font-size: 20px;
+        font-weight: 700;
+        padding: 20px 0;
+      }
+      
+    }
+  }
+}
