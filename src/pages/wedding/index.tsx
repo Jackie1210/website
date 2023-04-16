@@ -58,7 +58,7 @@ const Wedding = () => {
             2023.05.01午宴11:58
           </div>
           <div className="wedding__card-item pos">
-            常州市武进区枫泽山庄福·鼎楼祥瑞厅
+            常州市武进区枫泽山庄·福鼎楼祥瑞厅
           </div>
         </div>
       </div>
