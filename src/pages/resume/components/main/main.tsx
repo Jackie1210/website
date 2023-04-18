@@ -8,12 +8,13 @@ import { Stack } from '@/pages/resume/components/stack/index'
 import { Projs } from '@/pages/resume/components/projs'
 import { Review } from '@/pages/resume/components/review/index'
 import { CardContent } from '@/pages/resume/components/card/card-content'
+import { OpenSource } from '@/pages/resume/components/open-source'
 
 const Experiences: Array<ExpItem> = [
   {
     header: {
       company: 'Bilibili',
-      job: '高级前端开发工程师',
+      job: '高级开发工程师',
       time: '2021.4~现在',
       url: 'https://www.bilibili.tv'
     },
@@ -67,6 +68,9 @@ export const Main = () => {
       </Block>
       <Block title={'项目经验'}>
         <Projs />
+      </Block>
+      <Block title={'开源'}>
+        <OpenSource />
       </Block>
       <Block title={'教育经历'}>
         <Education />
