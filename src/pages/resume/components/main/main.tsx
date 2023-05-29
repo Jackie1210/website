@@ -14,7 +14,7 @@ const Experiences: Array<ExpItem> = [
   {
     header: {
       company: 'Bilibili',
-      job: '高级开发工程师',
+      job: '资深开发工程师',
       time: '2021.4~现在',
       url: 'https://www.bilibili.tv'
     },
