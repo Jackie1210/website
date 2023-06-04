@@ -1,7 +1,10 @@
 import logo from '@/assets/logo.jpeg'
 import './index.less'
 
-export const Header = () => {
+export interface Props {
+  showResume?: boolean
+}
+export const Header = ({ showResume = true }: Props) => {
   const handleClick = () => {
     window.location.href = 'https://clynn.xyz'
   }
@@ -14,9 +17,9 @@ export const Header = () => {
         alt="logo"
         onClick={handleClick}
       />
-      <div className="header__right">
+      {showResume && <div className="header__right">
         <a href="/resume" target="_blank" >简历</a>
-      </div>
+      </div>}
     </header>
   )
 }
