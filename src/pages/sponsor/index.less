@@ -1,0 +1,45 @@
+.sponsor {
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+  &__introduction {
+    text-align: left;
+    padding: 10px 25vw;
+    line-height: 1.5;
+    background: radial-gradient(#ee7621, #9198e5);
+    a {
+      font-weight: bold;
+      text-decoration: underline;
+      color: #000;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  ul {
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 0;
+    margin: 16px 0 0 0;
+  }
+  &__item {
+    list-style: none;
+    height: 20px;
+    color: #999;
+    &:hover, &--active {
+      color: #000;
+      cursor: pointer;
+    }
+  }
+  img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+}
