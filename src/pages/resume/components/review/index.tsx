@@ -1,11 +1,14 @@
+import './index.less'
+
 export const Review = () => {
   return (
     <div className="resume-review">
       <ul>
-        <li>typescript拥护者，正在学习rust</li>
-        <li>学习能力强</li>
-        <li>注重流程的规范性</li>
-        <li>不盲目追求银弹，基于现状探索最佳实践</li>
+        <li>实干者</li>
+        <li>owner意识重</li>
+        <li>用户体验追求者</li>
+        <li>对于技术有自己的taste</li>
+        <li>规范制定者</li>
       </ul>
     </div>
   )
