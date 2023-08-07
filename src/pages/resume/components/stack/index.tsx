@@ -1,3 +1,5 @@
+import './index.less'
+
 export const Stack = () => {
   return (
     <div className="resume-stack">

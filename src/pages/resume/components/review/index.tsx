@@ -1,3 +1,5 @@
+import './index.less'
+
 export const Review = () => {
   return (
     <div className="resume-review">
