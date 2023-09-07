@@ -22,7 +22,7 @@ export const EXPS: Array<ExpItem> = [
     header: {
       company: 'Bilibili',
       job: '资深开发工程师',
-      time: '2021.4~现在',
+      time: '2021.4~2023.8',
       url: 'https://www.bilibili.tv'
     },
     data: [
